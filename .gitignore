@@ -1,0 +1,105 @@
+# =========================
+# Python
+# =========================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+.myenv/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+# =========================
+# IDEs / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Data / Outputs
+# =========================
+
+# Uncomment these if your repo contains generated datasets/results
+# data/
+# datasets/
+# outputs/
+# results/
+# checkpoints/
+# runs/
+
+# =========================
+# Model / ML files
+# =========================
+
+# Uncomment if storing trained models locally
+# *.pt
+# *.pth
+# *.ckpt
+# *.onnx
+# *.safetensors
+
+# =========================
+# Misc
+# =========================
+
+*.tmp
+*.temp
